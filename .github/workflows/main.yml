@@ -48,13 +48,15 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_code: yes
-          plugin_code_languages: javascript, typescript
+          plugin_code_languages: javascript, python, java
           plugin_code_load: 400
+          plugin_code_visibility: all
 
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.leetcode.svg
           token: NOT_NEEDED
+          plugin_leetcode_user: samkun19
           base: ""
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
