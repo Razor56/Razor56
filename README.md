@@ -1,6 +1,6 @@
 ## Hi there 👋
 ![Metrics](/github-metrics.svg)
-!(/metrics.plugin.isocalendar.fullyear.svg)
+![Metrics](/metrics.plugin.isocalendar.fullyear.svg)
 <picture>
   <img src="/github-metrics.svg" alt="Metrics">
 </picture>
